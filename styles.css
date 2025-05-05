@@ -86,10 +86,33 @@
          padding-top: 7vw;
          padding-bottom: 7vw;
      }
+
+     #interview img  {
+      width: 80%;
+           image-rendering: auto !important;
+                 /* padding-top: 3vw; */
+                 /* right: 7vw; */
+    
+          }
+           #interview a {border-bottom: 1.5px solid #000 !important;}
+           #interview p {
+            width: 80%;
+           }
+       #interview {   
+           width: 55%;
+           font-family: 'Garamond';
+    font-size: 18px;
+    -webkit-text-stroke: .5px #000;
+    text-align: left;
+           padding-right: 7vw;
+           padding-left: 7vw;
+           padding-top: 5vw;
+           padding-bottom: 7vw;
+       }
     
     
           #exhibit img  {
-    width: 100%;
+    width: 80%;
          image-rendering: auto !important;
                padding-top: 7vw;
                right: 7vw;
@@ -140,17 +163,6 @@
      #cv img {  width: 30px;
          image-rendering: auto !important;
                }
-
-      #stars img {
-        width: 80%;
-        padding-top: 2vw;
-        image-rendering: auto !important;
-      }
-
-      #stars div {
-        flex 0 calc(100%/3);
-
-      }
               
   
   @media screen and (max-width: 600px) {
