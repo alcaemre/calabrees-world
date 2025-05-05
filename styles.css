@@ -1,0 +1,204 @@
+.fullscreen-video-container {
+    position: fixed;
+    height: 100vh; 
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+  }
+  
+  .fullscreen-video-container video {
+    position: fixed;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+   
+   body {font-family: 'Garamond', serif; background-color: #ffffff;}
+  
+   img {border: none !important;}
+   a {border-bottom: 1.5px solid #000 !important;
+       cursor: pointer;
+   }
+   
+   a:hover {
+   cursor:pointer;
+  }
+  
+   .list a {border-bottom: 1.5px solid #000 !important;}
+   
+      #vidinfo {  
+  image-rendering: auto;
+  position: absolute; 
+  right: 7vw;
+  bottom: 7vw;
+       max-width: auto;
+       text-align: left;
+        font-size: 18px;
+  -webkit-text-stroke: .5px #000;
+    z-index: -1;
+       }
+   
+       #homepage img  {
+    width: 55%;
+   
+                   bottom: 7vw;
+                   right: 7vw;
+         image-rendering: auto !important;
+   }
+   
+     #homepage {  
+         width: 55%;
+         font-family: 'Garamond';
+  font-size: 18px;
+  -webkit-text-stroke: .5px #000;
+  text-align: center;
+         padding-right: 7vw;
+         padding-left: 7vw;
+         padding-top: 7vw;
+         padding-bottom: 7vw;
+     }
+     
+    
+  #project img {
+  top: 7vw;
+  bottom: 7vw;
+  right: 7vw;
+    position: fixed;
+    width: 23%;
+    z-index: -1;
+   }
+      
+     #project {  
+         width: 55%;
+         font-family: 'Garamond';
+  font-size: 18px;
+  -webkit-text-stroke: .5px #000;
+  text-align: justify;
+         padding-right: 7vw;
+         padding-left: 7vw;
+         padding-top: 7vw;
+         padding-bottom: 7vw;
+     }
+    
+    
+          #exhibit img  {
+    width: 100%;
+         image-rendering: auto !important;
+               padding-top: 7vw;
+               right: 7vw;
+  
+        }
+         #exhibit a {border-bottom: 1.5px solid #000 !important;}
+     #exhibit {   
+         width: 55%;
+         font-family: 'Garamond';
+  font-size: 18px;
+  -webkit-text-stroke: .5px #000;
+  text-align: left;
+         padding-right: 7vw;
+         padding-left: 7vw;
+         padding-top: 7vw;
+         padding-bottom: 7vw;
+  
+     }
+  
+     #about {   
+         width: 55%;
+         font-family: 'Garamond';
+  font-size: 18px;
+  -webkit-text-stroke: .5px #000;
+  text-align: left;
+  padding-right: 7vw;
+         padding-left: 7vw;
+         padding-top: 7vw;
+         padding-bottom: 7vw;
+     }
+     #about a {border-bottom: 1.5px solid #000 !important;}
+     #about img { 
+        width: 55%;
+         padding-top: 7vw;
+         image-rendering: auto !important;
+               }
+  
+     #cv {   
+         width: 80%;
+         font-family: 'Garamond';
+  font-size: 18px;
+  -webkit-text-stroke: .5px #000;
+  padding-right: 7vw;
+         padding-left: 7vw;
+         padding-top: 7vw;
+     }
+     #cv a {border-bottom: 1.5px solid #000 !important;}
+     #cv img {  width: 30px;
+         image-rendering: auto !important;
+               }
+
+      #stars img {
+        width: 80%;
+        padding-top: 2vw;
+        image-rendering: auto !important;
+      }
+
+      #stars div {
+        flex 0 calc(100%/3);
+
+      }
+              
+  
+  @media screen and (max-width: 600px) {
+    #about {
+      font-size: 18px;
+      padding-top: 7vw;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #cv {
+      font-size: 18px;
+      padding-top: 7vw;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #exhibit {
+      font-size: 18px;
+      padding-top: 7vw;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #project {
+      font-size: 18px;
+      padding-top: 7vw;
+    }
+  }
+  
+  #carousel {
+      width: auto;
+      overflow: auto;
+      white-space:nowrap;
+  }
+  
+  #carousel .slide {
+      display: inline-block;
+  }
+  
+  #drop2 {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  #drop2 iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
